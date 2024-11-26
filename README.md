@@ -7,6 +7,15 @@
 <h2>Requirements</h2>
 <p>To use the example level, this plugin relies on the provided university GAD2010 Base Project/Plugin, as it uses the provided character in the example.</p>
 
+<h2>How to install</h2>
+<p>Download or clone the project. Copy the TimeManipulation folder to your plugins folder in your project.</p>
+<img src="https://github.com/Shane1585/Time-Manipulation/blob/main/ReadMeImages/InstallLocation.png">
+
+<p>If the project contains the base project for the university module, you can load a preview map that will explain further how the plugin works and how to use it:</p>
+<img src="https://github.com/Shane1585/Time-Manipulation/blob/main/ReadMeImages/PreviewMap.png">
+
+<p>Please note that with the preview map, some areas have start/stop recording zones, and skipping ahead by moving the character to a certain room may not trigger these recording events (and might cause issues with the tutorial)</p>
+
 <h2>Component/Blueprint Guide</h2>
 <h3>BP_TimeReverse</h3>
 <p>Add this to any object or character that you would like to be reversible. To do this, add this component to the actor, and then set the following variables depending on preference:</p>
