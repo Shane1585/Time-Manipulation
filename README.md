@@ -24,10 +24,9 @@
 
 <h3>BP_TimeReverseUI</h3>
 <p>Add this component to the player character, to enable a selection wheel/radial menu that presents some options for the player to select, for how to reverse. (This UI may not fit within the ICA). This object requires a <b>BP_TimeManager</b> to exist in the map, as this UI reverses objects by group (enabled by BP_TimeManager).</p>
-<img src="https://github.com/Shane1585/Time-Manipulation/blob/main/ReadMeImages/TimeGates.png">
 
 <h3>Start and Stop Recording Options</h3>
-<p>TODO: Add image here</p>
+<img src="https://github.com/Shane1585/Time-Manipulation/blob/main/ReadMeImages/TimeGates.png">
 <p>Some basic blueprint classes exist to enable starting and stopping recording on actors that have overlapped with collision boxes in these blueprints. These would be useful for enabling recording only when entering certain areas.</p>
 <p>The stop recording gate can be set to stop all objects, or only those that have passed it from recording. The start gate can be set to start all objects in passed in trigger volumes recording when the player passes it, or can be set up only to start those objects that have passed it, recording. Note: To use the trigger volume option, actors must be set up with the generate overlap events box ticked.</p>
 
