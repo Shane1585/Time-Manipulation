@@ -10,7 +10,7 @@
 <h2>Component/Blueprint Guide</h2>
 <h3>BP_TimeReverse</h3>
 <p>Add this to any object or character that you would like to be reversible. To do this, add this component to the actor, and then set the following variables depending on preference:</p>
-![alt text](ReadMeImages/BP_TimeReverse.png?raw=true "Title")
+<img src="https://github.com/Shane1585/Time-Manipulation/blob/main/ReadMeImages/BP_TimeReverse.png">
 <ul>
   <li><b>Frames -</b> This is how the component stores the location and velocity history. You can pre-set these to give a recording of the location prior to the game starting. This allows you to pre-add some location and velocity history (this would be useful for scripted events).</li>
   <li><b>Is Recording? -</b> Whether or not the actor is currently recording transform and velocity history. Warning: When starting recording off of custom events, you should use the <b>StartNewRecording</b> function to start an object recording, instead of setting this directly</li>
@@ -24,7 +24,7 @@
 
 <h3>BP_TimeReverseUI</h3>
 <p>Add this component to the player character, to enable a selection wheel/radial menu that presents some options for the player to select, for how to reverse. (This UI may not fit within the ICA). This object requires a <b>BP_TimeManager</b> to exist in the map, as this UI reverses objects by group (enabled by BP_TimeManager).</p>
-<p>TODO: Add image here</p>
+<img src="https://github.com/Shane1585/Time-Manipulation/blob/main/ReadMeImages/TimeGates.png">
 
 <h3>Start and Stop Recording Options</h3>
 <p>TODO: Add image here</p>
